@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    
+    xml:id="ch01_intro">
+<title>Buildroot简介</title>
+<abstract></abstract>
+
+<para>Buildroot，是个嵌入式开发领域内的，一个成套的嵌入式开发环境。</para>
+<para>与Buildroot对应的，还有其他一些嵌入式开发环境，详见：<link xl:href="http://www.crifan.com/files/doc/docbook/cross_compile/release/html/cross_compile.html#crosscompiler_tools">各种制作交叉编译器的工具</link></para>
+<para>Buildroot可以用来，制作自己的交叉编译器，制作自己的根文件系统，把uboot，Linux kernel集成到Buildroot中一起编译。</para>
+<para></para>
+<para></para>
+<para></para>
+<para>TODO：</para>
+<para>合并<link xl:href="http://www.crifan.com/summary_about_toolchain_cross_compiler/" />中的buildroot的内容。</para>
+<para><link xl:href="http://littlebing.blogspot.com/2011/10/use-buildroot-to-create-your-own.html">use buildroot to create your own root file system</link></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+
+</chapter>

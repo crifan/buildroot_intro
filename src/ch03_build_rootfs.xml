@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    
+    xml:id="ch03_build_rootfs">
+<title>用Buildroot制作根文件系统</title>
+<abstract></abstract>
+
+<para>也可以用Buildroot去制作根文件系统。</para>
+<para>一般来说，编译Buildroot完成后，默认的就可以编译出一套根文件系统了。然后就可以根据自己的需要，稍加修改，即可制作出自己需要的根文件系统。</para>
+<para></para>
+<para></para>
+
+</chapter>

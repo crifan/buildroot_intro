@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE preface>
+
+<preface
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    
+    xml:id="preface">
+<title>前言</title>
+
+<sect1 xml:id="purpose"><title>本文目的</title>
+    <para>网上可以找到，全套的，介绍Buildroot，和如何使用Buildroot制作交叉编译器，根文件系统等方面的内容，很少，不全。</para>
+    <para>自己旨在编写并逐渐完善出一整套关于Buildroot方面的内容，供参考。</para>
+</sect1>
+
+<section xml:id="contact"><title>联系方式</title>
+    <para>有任何意见、建议，都欢迎<link xl:href="http://www.crifan.com/about/me/">联系我Crifan</link></para>
+</section>
+</preface>

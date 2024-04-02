@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:mathml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    
+    xml:id="ch04_cygwin_build">
+<title>在Cygwin下编译Buildroot</title>
+<abstract></abstract>
+
+<para>平时我们所说的编译Buildroot，都是在Linux类的系统里面操作的，比如在Ubuntu中编译Buildroot。</para>
+<para>而在基于Windows的平台下，想要去编译Buildroot，一般来说没有好的选择。</para>
+<para>其中一个勉为其难的选择是，Windows下安装Cygwin，然后在Cygwin下编译Buildroot。</para>
+<para>但是Buildroot官网并没有说其支持Cygwin，所以，如果在Cygwin下面编译Buildroot则会遇到很多意想不到的问题，也未必能成功编译。</para>
+<para>不过，我后来是专门花时间折腾过，最终是可以成功的在Cygwin下面编译Buildroot的。</para>
+<para>详细过程如下：</para>
+<para>TODO：整理帖子</para>
+<para><link xl:href="http://www.crifan.com/try_under_cygwin_compile_buildroot_for_xscale_arm_cross_toolchain_compiler/">【记录】在Cygwin上用Buildroot为xscale建立交叉工具链</link></para>
+<para>其中包括了：</para>
+<para><link xl:href="http://www.crifan.com/cygwin_buildroot_make_libtool_2_2_10_configure_error_c_compiler_cannot_create_executables/">【已解决】cygwin下make编译buildroot时在libtool-2.2.10时出错：configure: error: C compiler cannot create executables</link></para>
+<para><link xl:href="http://www.crifan.com/cygwin_buildroot_cc1_exe_error_while_loading_shared_libraries_cannot_open_shared_object_file_no_such_file_or_directory/">【已 解决】再次研究：Cygwin下编译Buildroot时在编译libtool-2.2.10时出错：/usr/lib/gcc/i686-pc- cygwin/4.7.3/cc1.exe: error while loading shared libraries: ?: cannot open shared object file: No such file or directory</link></para>
+<para><link xl:href="http://www.crifan.com/cygwin_buildroot_usr_lib_gcc_i686_pc_cygwin_4_7_3_cc1_exe_error_while_loading_shared_libraries_cannot_open_shared_object_file_no_such_file_or_directory/">【记录】第三次去研究：Cygwin下编译Buildroot时在编译libtool-2.2.10时出错：/usr/lib/gcc/i686-pc- cygwin/4.7.3/cc1.exe: error while loading shared libraries: ?: cannot open shared object file: No such file or directory</link></para>
+<para><link xl:href="http://www.crifan.com/fourth_time_investigate_buildroot_cygwin_libtool_configure_error_c_compiler_cannot_create_executables/">【记录】第四次去研究：cygwin下编译buildroot在编译libtool时出错：configure: error: C compiler cannot create executables</link></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+<para></para>
+
+</chapter>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE book
+[
+
+<!ENTITY cur_book_name      "buildroot_intro" >
+<!ENTITY publish_date       "2015-05-24" >
+<!ENTITY release_version    "0.2.0" >
+
+<!ENTITY copyrith_year "2015" >
+<!ENTITY entity_common_multi_format     SYSTEM  "../../entity_common_multi_format.xml">
+<!ENTITY entity_common_publish_info     SYSTEM  "../../entity_common_publish_info.xml">
+]>
+
+<book version="5.0"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xl="http://www.w3.org/1999/xlink"
+    
+    xml:lang="zh_CN">
+<info>
+    <title>Buildroot详解</title>
+    <subtitle></subtitle>
+    <keywordset>
+        <keyword>Buildroot</keyword>
+        <keyword>交叉编译器</keyword>
+        <keyword>环境搭建</keyword>
+    </keywordset>
+
+    <abstract>
+        <para>本文主要介绍了什么是Buildroot，如何用Buildroot去制作自己的交叉编译器，如何用Buildroot去制作自己的根文件系统，如何在Cygwin下编译Buildroot。</para>
+        &entity_common_multi_format;
+    </abstract>
+
+    <revhistory>
+        <revision>
+            <revnumber>&release_version;</revnumber>
+            <date>&publish_date;</date>
+            <revremark>
+                <orderedlist>
+                    <listitem>把基本的内容整理架进来</listitem>
+                </orderedlist>
+            </revremark>
+            <authorinitials>crl</authorinitials>
+        </revision>
+    </revhistory>
+
+    &entity_common_publish_info;
+</info>
+
+<xi:include href="preface.xml" />
+<xi:include href="ch01_intro.xml" />
+<xi:include href="ch02_build_crosscompiler.xml" />
+<xi:include href="ch03_build_rootfs.xml" />
+<xi:include href="ch04_cygwin_build.xml" />
+<xi:include href="reference.xml" />
+
+</book>
